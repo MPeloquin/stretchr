@@ -17,6 +17,9 @@
           <li class="{{isActiveRoute 'homeContact'}}"><a href="{{pathFor 'homeContact'}}">Contact</a></li>
         </ul>        
         <ul class="nav navbar-nav navbar-right">
+          {{#if currentUser}}
+            {{> avatar user=currentUser size="small"}}
+          {{/if}}
           {{> loginButtons}}
         </ul>
       </div>

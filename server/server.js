@@ -11,3 +11,18 @@ Meteor.publish("tasks", function() {
         }]
     });
 });
+
+Meteor.publish(null, function() {
+    if (this.userId != null) {
+        return Meteor.users.find({
+            _id: this.userId
+        }, {
+            fields: {
+                'createdAt': 1,
+                'services': 1,
+            }
+        });
+    } else {
+        return this.ready();
+    }
+});
