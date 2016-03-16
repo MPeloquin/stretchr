@@ -1,6 +1,6 @@
 Meteor.subscribe("tasks");
 
-Template.body.helpers({
+Template.homeIndex.helpers({
     tasks: function() {
         if (Session.get("hideCompleted")) {
             // If hide completed is checked, filter tasks
@@ -34,8 +34,9 @@ Template.body.helpers({
     }
 });
 
-Template.body.events({
+Template.homeIndex.events({
     "submit .new-task": function(event) {
+        console.log("hey");
         // Prevent default browser form submit
         event.preventDefault();
 
