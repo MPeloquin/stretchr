@@ -2,6 +2,7 @@ accounts-base@1.2.2
 accounts-google@1.0.6
 accounts-oauth@1.1.8
 accounts-password@1.1.4
+amplify@1.0.0
 anti:i18n@0.4.3
 autoupdate@1.2.4
 babel-compiler@5.8.24_1
@@ -51,12 +52,15 @@ jparker:crypto-md5@0.1.1
 jparker:gravatar@0.3.1
 jquery@1.11.4
 launch-screen@1.0.4
+less@2.5.1
 livedata@1.0.15
 localstorage@1.0.5
 logging@1.0.8
 meteor@1.1.10
 meteor-base@1.0.1
 meteorhacks:inject-initial@1.0.3
+mike:mocha@0.6.6
+mike:mocha-core@0.1.0
 minifiers@1.1.7
 minimongo@1.0.10
 mobile-experience@1.0.1
@@ -70,7 +74,10 @@ oauth@1.1.6
 oauth2@1.1.5
 observe-sequence@1.0.7
 ordered-dict@1.0.4
+package-version-parser@3.0.4
 pcel:loading@1.0.3
+practicalmeteor:chai@2.1.0_1
+practicalmeteor:loglevel@1.2.0_2
 promise@0.5.1
 random@1.0.5
 rate-limit@1.0.0
@@ -79,6 +86,9 @@ reactive-var@1.0.6
 reload@1.1.4
 retry@1.0.4
 routepolicy@1.0.6
+sanjo:long-running-child-process@1.1.5
+sanjo:meteor-files-helpers@1.1.0_7
+sanjo:meteor-version@1.0.0
 service-configuration@1.0.5
 session@1.1.1
 sha@1.0.4
@@ -95,6 +105,11 @@ ui@1.0.8
 underscore@1.0.4
 url@1.0.5
 utilities:avatar@0.9.2
+velocity:chokidar@1.2.0_1
+velocity:core@0.10.10
+velocity:html-reporter@0.9.1
+velocity:meteor-internals@1.1.0_7
+velocity:shim@0.1.0
 webapp@1.2.3
 webapp-hashing@1.0.5
 zimme:active-route@2.3.2
